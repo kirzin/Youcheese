@@ -1,0 +1,179 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://cdn0.iconfinder.com/data/icons/foody-icons/32/FoodyIcons_color-04-512.png">
+    <link rel="stylesheet" href="style.css">
+    <title>YouCheese</title>
+</head>
+<body class = "bg-gray-100 text-yellow-600 dark:bg-black">
+   
+   <div class="md:flex md:justify-start"><!--content-->
+       <div class="md:flex md:justify-space">
+          <nav class="text-right">
+              <div class="flex justify-between items-center shadow-md md:shadow-none">
+                <img src="https://image.flaticon.com/icons/png/512/284/284833.png" class="w-10 ">
+                  <h1 class="lg:text-3xl font-bold p-4 md:text-4xl">
+                      <a href="#"class="dark:text-white hover:text-gray-900">YouCheese</a>
+                  </h1>
+                  <div class="px-4 cursor-pointer md:hidden" id="burger">
+                      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                  </div>
+              </div>
+              <ul class="text-yellow-800 dark:text-white mt-6 hidden md:block" id="menu">
+                  <li class="py-1">
+                        <a href="#" class=" flex justify-end px-4 border-r-4 border-red-400">
+    
+                            <span>Home</span>
+                             <svg class="w-6 h-6 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg>
+
+                        </a>
+                  </li>
+                   <li class="py-1">
+                        <a href="#" class=" flex justify-end px-4 border-r-4 border-white">
+                           
+                            <span>About</span>
+                            <svg class="w-6 h-6 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        </a>
+                  </li>
+                   <li class="py-1">
+                        <a href="#" class=" flex justify-end px-4 border-r-4 border-white">
+                            
+                            <span>Contact</span>
+                            <svg class="w-6 h-6 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"></path></svg>
+                        </a>
+                  </li>
+              </ul>
+          </nav> 
+       </div><!-- end nav -->
+
+       <main class="px-16 py-6 md:col-span-2">
+           <div class="flex md:justify-end  mb-5">
+               <a href="#" class="text-primary rounded-md py-2 px-2 uppercase font-bold cursor-pointer tracking-wider border-gray-200 shadow-md  border-2 hover:shadow-lg hover:text-black transition ease-in duration-500">Login</a>
+               <a href="#" class="text-primary ml-2 rounded-md py-2 px-2 uppercase font-bold cursor-pointer tracking-wider border-gray-200 shadow-md border-2 hover:shadow-lg hover:text-black transition ease-in duration-500">Sign up</a>
+           </div>
+
+           <header>
+               <h2 class="text-2xl">Yes sir it's Cheese</h2>
+               <h3>A collection of cheese for you</h3>
+           </header>
+
+           <div>
+               <h4 class=" font-semibold text-2xl mt-12 pb-2 border-b border-yellow-700">Popular Cheese</h4>
+
+               <div class="mt-7 grid lg:grid-cols-3 gap-10">
+
+                   <!-- card goes here-->
+                   <div class="bg-white rounded-md overflow-hidden shadow-md relative hover:shadow-lg">
+                       <img class="object-cover w-full h-40 sm:h-48" src="http://countrycheesecompany.com/sites/default/files/imagecache/product_full/StAlbertWhiteCheddar.jpg">
+                       <div class="m-4">
+                           <span class="text-2xl">Cheddar Cheese</span>
+                           <span class="block text-gray-500">Description</span>
+                           <p class="text-m text-gray-600">This cheese is already expired long time ago please buy this i need money</p>
+                       </div>
+                       <div class="bg-yellow-200 rounded-full p-2 absolute top-0 text-sm ml-2 mt-2 opacity-80">
+                        <svg class="w-6 h-6 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg>
+                           <span>5 star</span>
+                       </div>
+                   </div> 
+                   <!--card ends here-->
+
+                   <!-- card goes here-->
+                   <div class="bg-white rounded-md overflow-hidden shadow-md relative hover:shadow-lg">
+                    <img class="object-cover w-full h-40 sm:h-48" src="https://dorismarket.com/wp-content/uploads/2018/09/GratedParmesanCheese.jpg">
+                    <div class="m-4">
+                        <span class="text-2xl">Parmesan Cheese</span>
+                        <span class="block text-gray-500">Description</span>
+                        <p class="text-m text-gray-600">This cheese is already expired long time ago please buy this i need money</p>
+                    </div>
+                    <div class="bg-yellow-200 rounded-full p-2 absolute top-0 text-sm ml-2 mt-2 opacity-80">
+                        <svg class="w-6 h-6 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg>
+                        <span>4.9 star</span>
+                    </div>
+                </div> 
+                <!--card ends here-->
+
+                <!-- card goes here-->
+                <div class="bg-white rounded-md overflow-hidden shadow-md relative hover:shadow-lg">
+                    <img class="object-cover w-full h-40 sm:h-48" src="https://www.thermofisher.com/blog/food/wp-content/uploads/sites/5/2015/07/istock_000029420740_medium.jpg">
+                    <div class="m-4">
+                        <span class="text-2xl">Cream Cheese</span>
+                        <span class="block text-gray-500">Description</span>
+                        <p class="text-m text-gray-600">This cheese is already expired long time ago please buy this i need money</p>
+                    </div>
+                    <div class="bg-yellow-200 rounded-full p-2 absolute top-0 text-sm ml-2 mt-2 opacity-80">
+                        <svg class="w-6 h-6 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg>
+                        <span>5 star</span>
+                    </div>
+                </div> 
+                <!--card ends here-->
+               </div>
+
+                <h4 class="text-2xl mt-12 pb-2 border-b border-yellow-700 font-bold">Legendary Cheese</h4>
+
+                <div class="mt-7 grid lg:grid-cols-3 gap-10">
+                    <!-- cards goes here -->
+
+                    <!-- card goes here-->
+                <div class="bg-white rounded-md overflow-hidden shadow-md relative hover:shadow-lg">
+                    <img class="object-cover w-full h-40 sm:h-48" src="https://thumbs.dreamstime.com/b/moldy-cheese-white-background-45893414.jpg">
+                    <div class="m-4">
+                        <span class="text-2xl">Rotten Cheese</span>
+                        <span class="block text-gray-500">Description</span>
+                        <p class="text-m text-gray-600">HAHAHA deadly cheese please buy this i need money</p>
+                    </div>
+                    <div class="bg-yellow-200 rounded-full p-2 absolute top-0 text-sm ml-2 mt-2 opacity-80">
+                        <svg class="w-6 h-6 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg>
+                        <span>5 star</span>
+                    </div>
+                </div> 
+                <!--card ends here-->
+
+                   <!-- card goes here-->
+                <div class="bg-white rounded-md overflow-hidden shadow-md relative hover:shadow-lg">
+                    <img class="object-cover w-full h-40 sm:h-48" src="https://thumbs.dreamstime.com/b/moldy-cheese-white-background-45893414.jpg">
+                    <div class="m-4">
+                        <span class="text-2xl">Rotten Cheese</span>
+                        <span class="block text-gray-500">Description</span>
+                        <p class="text-m text-gray-600">HAHAHA deadly cheese please buy this i need money</p>
+                    </div>
+                    <div class="bg-yellow-200 rounded-full p-2 absolute top-0 text-sm ml-2 mt-2 opacity-80">
+                        <svg class="w-6 h-6 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg>
+                        <span>5 star</span>
+                    </div>
+                </div> 
+                <!--card ends here-->
+
+                   <!-- card goes here-->
+                <div class="bg-white rounded-md overflow-hidden shadow-md relative hover:shadow-lg">
+                    <img class="object-cover w-full h-40 sm:h-48" src="https://thumbs.dreamstime.com/b/moldy-cheese-white-background-45893414.jpg">
+                    <div class="m-4">
+                        <span class="text-2xl">Rotten Cheese</span>
+                        <span class="block text-gray-500">Description</span>
+                        <p class="text-m text-gray-600">HAHAHA deadly cheese please buy this i need money</p>
+                    </div>
+                    <div class="bg-yellow-200 rounded-full p-2 absolute top-0 text-sm ml-2 mt-2 opacity-80">
+                        <svg class="w-6 h-6 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg>
+                        <span>5 star</span>
+                    </div>
+                </div> 
+                <!--card ends here-->
+                </div>
+
+                <div class="flex justify-center hover:shadow-lg">
+                    <div class="rounded-full py-2 px-2 uppercase font-bold cursor-pointer tracking-wider hover:shadow-inner">
+                        <svg class="w-6 h-6 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 13l-7 7-7-7m14-8l-7 7-7-7"></path></svg>
+                        Load more 
+                        <svg class="w-6 h-6 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 13l-7 7-7-7m14-8l-7 7-7-7"></path></svg>
+                    </div>
+                </div>
+
+           </div>
+
+       </main>
+
+   </div>
+   <script src="index.js"></script>
+</body>
+</html>
